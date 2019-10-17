@@ -4,6 +4,7 @@ Este es un proyecto para practicar e integrar lo visto sobre hacer _requests_ us
 
 ## Parte 1: Request y procesamiento de los datos 🕵️‍♀️
 
+0. Leer la [documentación](https://api.imgflip.com/) de la API de Memes
 1. Crear un nuevo repo **(no fork!)** en GitHub para el código del ejercicio. Clonarlo para trabajar de forma local.
 2. Dentro del repo, crear un archivo `index.js`, donde va a estar nuestro código.
 3. Hacer un _request_ de tipo `GET` al endpoint `https://api.imgflip.com/get_memes`, usando `Fetch API`.
