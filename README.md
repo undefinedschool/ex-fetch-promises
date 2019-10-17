@@ -12,7 +12,7 @@ Este es un proyecto para practicar e integrar lo visto sobre hacer _requests_ us
 3. Hacer un _request_ de tipo `GET` al endpoint `https://api.imgflip.com/get_memes`, usando `Fetch API`.
 4. Investigar el objeto [Response](https://developer.mozilla.org/en-US/docs/Web/API/Response). Si la respuesta es exitosa (`status code: 200`), mostrar en consola el mensaje "Successful request!", sino mostrar "Oops, we get a ${STATUS_CODE} error", con el valor correspondiente.
 5. A partir de la respuesta obtenida, generar el siguiente resultado:
-    - Quedarnos sólo con las propiedades `id`, `name`, `width`, `height` y `url` (en ese orden) de cada elemento del array. Omitir el resto (**Tip:** usar _destructuring_ + _spread operator_ para esto). Ver ejemplo más abajo.
+    - Quedarnos sólo con las propiedades `id`, `name`, `width`, `height` y `url` (en ese orden) de cada elemento del array. Omitir el resto (**Tip:** usar _destructuring_). Ver ejemplo más abajo.
     - Generar un nuevo array de _memes_, donde cada uno tendrá las propiedades mencionadas en el ítem anterior
     - En este array, filtraremos aquellos elementos cuyas propiedades `width` y `height` tengan un valor < `500`
     - Ordenar el array por `id`, de forma ascendente
