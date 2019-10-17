@@ -4,7 +4,7 @@ Este es un proyecto para practicar e integrar lo visto sobre hacer _requests_ us
 
 ## Parte 1: Request y procesamiento de los datos 🕵️‍♀️
 
-1. Crear un nuevo repo (no fork!) en GitHub para el código del ejercicio. Clonarlo para trabajar de forma local.
+1. Crear un nuevo repo **(no fork!)** en GitHub para el código del ejercicio. Clonarlo para trabajar de forma local.
 2. Dentro del repo, crear un archivo `index.js`, donde va a estar nuestro código.
 3. Hacer un _request_ de tipo `GET` al endpoint `https://api.imgflip.com/get_memes`, usando `Fetch API`.
 4. Investigar el objeto [Response](https://developer.mozilla.org/en-US/docs/Web/API/Response). Si la respuesta es exitosa (`status code: 200`), mostrar en consola el mensaje "Successful request!", sino mostrar "Oops, we get a ${STATUS_CODE} error", con el valor correspondiente.
