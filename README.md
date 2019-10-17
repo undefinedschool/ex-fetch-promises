@@ -1,13 +1,14 @@
 # Project 3: Meme Of The Day
 
-Este es un proyecto para practicar e integrar lo visto sobre hacer _requests_ usando [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch), [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises), modularización, refactoring y CSS.
+Este es un proyecto para practicar e integrar lo visto sobre hacer _requests_ usando **[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)**, **[Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)**, manipulación del **DOM**, **modularización**, **refactoring** y **CSS**.
 
-## Parte 1: Request y procesamiento de los datos
+## Parte 1: Request y procesamiento de los datos 🕵️‍♀️
 
-1. Crear un repo en GitHub para el código del ejercicio. Clonarlo para trabajar de forma local.
+1. Crear un nuevo repo (no fork!) en GitHub para el código del ejercicio. Clonarlo para trabajar de forma local.
 2. Dentro del repo, crear un archivo `index.js`, donde va a estar nuestro código
 3. Hacer un _request_ de tipo `GET` al endpoint `https://api.imgflip.com/get_memes`, usando `Fetch API`
-4. A partir de la respuesta obtenida, generar el siguiente resultado:
+4. Investigar el objeto [Response](https://developer.mozilla.org/en-US/docs/Web/API/Response). Si la respuesta es exitosa (`status code: 200`), mostrar en consola el mensaje "Successful request!", sino mostrar "Oops, we get a ${STATUS_CODE} error", con el valor correspondiente
+5. A partir de la respuesta obtenida, generar el siguiente resultado:
     - Quedarnos sólo con las propiedades `id`, `name`, `width`, `height` y `url` (en ese orden) de cada elemento del array. Omitir el resto (**Tip:** usar _destructuring_ + _spread operator_ para esto). Ver ejemplo más abajo.
     - Generar un nuevo array de _memes_, donde cada uno tendrá las propiedades mencionadas en el ítem anterior
     - En este array, filtraremos aquellos elementos cuyas propiedades `width` y `height` tengan un valor < `500`
@@ -29,7 +30,7 @@ Este es un proyecto para practicar e integrar lo visto sobre hacer _requests_ us
 ]
 ```
 
-## Parte 2: Modularizar y refactorizar
+## Parte 2: Modularización y refactoring 🛀
 
 Vamos a separar el código en 2 archivos, `api.js` y `index.js`. Usar [ES6 Modules](https://github.com/undefinedschool/es6-modules/) para exportar e importar entre ambos.
 
@@ -39,12 +40,12 @@ Vamos a separar el código en 2 archivos, `api.js` y `index.js`. Usar [ES6 Modul
 - `index.js` va a importar la función `getMemes()` de `api.js`, invocarla y hacer todo el procesamiento posterior que hicimos en la [parte 1](#parte-1-request-y-procesamiento-de-los-datos)
   - modularizar los diferentes procesamientos que hacemos en los _callbacks_ en funciones y usarlas 
 
-## Parte 3: Random!
+## Parte 3: Random! 🎰
 
 1. Escribir la función `getRandomMeme()` que reciba un array de memes (resultado de la [parte 2](#parte-2-modularizar-y-refactorizar)) y retorne, de forma aleatoria, algún _meme_ del mismo
   - Estudiar posibilidades de modularizar esta función
 
-## Parte 4: Render
+## Parte 4: Render 👀
 
 1. Crear un `index.html` en el mismo repo, usando la estructura predefinida de un HTML5 vacío
 2. Crear dentro un `div` con la clase `container`
@@ -69,7 +70,7 @@ Abajo se muestra cómo quedaría la estructura
     - Setear la `url` del meme como `src` de la imagen
     - Setear el `name` del meme como `alt` de la imagen
     
-## Parte 5: Estilizando
+## Parte 5: Estilizando 💅
 
 Crear y linkear elarchivo `styles.css`, donde irá todo el código que usaremos para los estilos
 
