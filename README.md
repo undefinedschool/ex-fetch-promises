@@ -39,7 +39,13 @@ Vamos a separar el código en 2 archivos, `api.js` y `index.js`. Usar [ES6 Modul
   - este código irá dentro de la función `getMemes(URL)`, que recibe la _url_ como parámetro
   - guardar el endpoint de la API en una constante global `ENDPOINT`
 - `index.js` va a importar la función `getMemes()` de `api.js`, invocarla y hacer todo el procesamiento posterior que hicimos en la [parte 1](#parte-1-request-y-procesamiento-de-los-datos)
-  - modularizar los diferentes procesamientos que hacemos en los _callbacks_ en funciones y usarlas 
+  - modularizar los diferentes procesamientos que hacemos en los _callbacks_ en funciones y usarlas. Ver abajo cómo debería quedar
+
+```
+do1()
+  .then(do2())
+  .then(do3());
+```
 
 ## Parte 3: Random! 🎰
 
