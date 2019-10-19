@@ -19,7 +19,7 @@ Este es un proyecto para practicar e integrar lo visto sobre hacer _requests_ us
     - Ordenar el array por `id`, de forma ascendente
 5. Mostrar el resultado en la consola. Recordá que podés usar `console.dir` para visualizar mejor objetos.
 6. Usar siempre nombres declarativos para las variables, constantes, etc. [Guía de buenas prácticas](https://github.com/undefinedschool/best-practices).
-7. En caso de error al hacer el request, mostrar el mensaje del error.
+7. En caso de error al hacer el request, mostrar el `message` del error.
 
 ```js
 // resultado esperado
