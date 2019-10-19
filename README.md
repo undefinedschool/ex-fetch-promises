@@ -14,7 +14,7 @@ Este es un proyecto para practicar e integrar lo visto sobre hacer _requests_ us
 5. A partir de la respuesta obtenida, generar el siguiente resultado:
     - Quedarnos sólo con las propiedades `id`, `name`, `width`, `height` y `url` (en ese orden) de cada elemento del array. Omitir el resto (**Tip:** usar _destructuring_). Ver ejemplo más abajo.
     - Generar un nuevo array de _memes_, donde cada uno tendrá las propiedades mencionadas en el ítem anterior
-    - En este array, filtraremos aquellos elementos cuyas propiedades `width` y `height` tengan un valor < `500`
+    - En este array, filtraremos aquellos elementos cuyas propiedades `width` ó `height` tengan un valor < `500`
     - Ordenar el array por `id`, de forma ascendente
 5. Mostrar el resultado en la consola. Recordá que podés usar `console.dir` para visualizar mejor objetos.
 6. Usar siempre nombres declarativos para las variables, constantes, etc. [Guía de buenas prácticas](https://github.com/undefinedschool/best-practices).
