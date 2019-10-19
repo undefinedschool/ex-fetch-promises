@@ -11,6 +11,7 @@ Este es un proyecto para practicar e integrar lo visto sobre hacer _requests_ us
 2. Dentro del repo, crear un archivo `index.js`, donde va a estar nuestro código.
 3. Hacer un _request_ de tipo `GET` al endpoint `https://api.imgflip.com/get_memes`, usando `Fetch API`.
 4. Investigar el objeto [Response](https://developer.mozilla.org/en-US/docs/Web/API/Response). Si la respuesta es exitosa (`status code: 200`), mostrar en consola el mensaje "Successful request!", sino mostrar "Oops, we get a ${STATUS_CODE} error", con el valor correspondiente.
+    - **Tip:** para probar el caso donde el _request_ falla, googlear cómo _bloquear un request_ usando las _DevTools_, pestaña _Network_. De esta forma forzamos que falle.
 5. A partir de la respuesta obtenida, generar el siguiente resultado:
     - Quedarnos sólo con las propiedades `id`, `name`, `width`, `height` y `url` (en ese orden) de cada elemento del array. Omitir el resto (**Tip:** usar _destructuring_). Ver ejemplo más abajo.
     - Generar un nuevo array de _memes_, donde cada uno tendrá las propiedades mencionadas en el ítem anterior
