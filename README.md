@@ -51,19 +51,24 @@ do1()
   .then(do3());
 ```
 
-## Parte 3: Random! 🎰
+## Parte 3: Meme del día 📆
 
-1. Escribir la función `getRandomMeme()` que reciba un array de memes (resultado de la [parte 2](#parte-2-modularizar-y-refactorizar)) y retorne, de forma aleatoria, algún _meme_ del mismo.
-2. Analizar posibilidades de modularizar esta función.
+1. Escribir la función `getMemeOfTheDay()` (en `index.js`), que reciba un array de memes (resultado de la [parte 2](#parte-2-modularizar-y-refactorizar)) y retorne el meme correspondiente al día actual, es decir, si hoy fuera 21 de Octubre, debe retornar el meme Nº 21 de la lista, mañana el Nº 22, etc.
+2. Analizar posibilidades de modularizar y refactorizar esta función y aplicarlas.
 
-## Parte 4: Render 👀
+## Parte 4: Random! 🎰
+
+1. Escribir la función `getRandomMeme()` (en `index.js`), que reciba un array de memes (resultado de la [parte 2](#parte-2-modularizar-y-refactorizar)) y retorne, de forma aleatoria, algún _meme_ del mismo.
+2. Analizar posibilidades de modularizar y refactorizar esta función y aplicarlas.
+
+## Parte 5: Render 👀
 
 1. Crear un `index.html` en el mismo repo, usando la estructura predefinida de un HTML5 vacío.
 2. Crear dentro un `div` con la clase `container`.
-   - Usar Flexbox para centrar (horizontal y verticalmente) todo el contenido de este div
+   - Usar [Flexbox](https://www.youtube.com/watch?v=JJSoEo8JSnc) para centrar (horizontal y verticalmente) todo el contenido de este `div`
    - Agregarle un `h1` con el texto "Meme of the Day"
-   - Agregarle **debajo** un tag `img` con la clase `meme` y ocultarla con CSS, seteando su atributo `display` (en el archivo CSS de la [parte 5](#parte-5-estilizando))
-   - Agregar un botón **debajo** del `img`, con la clase `btn-get-meme` y el texto "Get Meme!"
+   - Agregarle **debajo** un tag `img` con la clase `meme` y asignarle como `src` el meme obtenido con la función `getMemeOfTheDay()`
+   - Agregar un botón **debajo** del `img`, con la clase `btn-get-random-meme` y el texto "Get random Meme!"
 
 Abajo se muestra cómo quedaría la estructura
 
@@ -75,18 +80,19 @@ Abajo se muestra cómo quedaría la estructura
 ```
 
 3. Al hacer click en el botón, debe ocurrir lo siguiente:
-  - Ocultar el `h1`, modificando su atributo `display``
-  - Modificar el texto del botón a "Get another random meme!"
-  - Utilizar la función `getRandomMeme()` de la [parte 3](#parte-3-random) para obtener un meme aleatorio
-    - Setear la `url` del meme como `src` de la imagen
-    - Setear el `name` del meme como `alt` de la imagen
-    
-## Parte 5: Estilizando 💅
+  - Modificar el texto del `h1` a "Random Meme"
+  - Modificar el texto del botón a "Get another random Meme!"
+  - Utilizar la función `getRandomMeme()` de la [parte 4](#parte-4-random) para obtener un meme aleatorio
+    - Setear la `url` del meme random como `src` de la imagen obtenida
+    - Setear el `name` del meme como random `alt` de la imagen obtenida
 
-1. Crear y linkear el archivo `styles.css`, donde irá todo el código que usaremos para los estilos.
-2. Aplicar el _reset_ de `padding: 0`, `margin: 0` y `box-sizing: border-box` donde corresponda.
-3. Usar fuentes de Google Fonts para los `h1`y `h2`.
-4. Aplicar los estilos necesarios para que los elementos del container queden con la estructura y orden definidos en la [parte 4](#parte-4-render).
+## Parte 6: Estilizando 💅
+
+1. Crear el archivo `styles.css`, donde irá todo el código que usaremos para los estilos.
+2. Aplicar el _reset_ con `padding: 0`, `margin: 0` y `box-sizing: border-box` donde corresponda.
+3. Usar fuentes de [Google Fonts](https://fonts.google.com/) para los `h1`y `h2`.
+4. Aplicar los estilos necesarios para que los elementos del container queden con la estructura y orden definidos en la [parte 5](#parte-5-render).
 5. Aplicar márgenes entre los diferentes elementos del container.
 6. Agregar [efectos y transiciones](https://dev.to/webdeasy/top-20-css-buttons-animations-f41) al botón, al hacerle _hover_ y clickearlo.
-7. Al hacer _hover_ sobre la imagen del meme, se debe visualizar un texto con transición **sobre** la imagen, con el `name` del meme como texto, ver [texto con transición _fade in_](https://www.w3schools.com/howto/howto_css_image_overlay.asp) como ejemplo. 
+7. Al hacer _hover_ sobre la imagen del meme, se debe visualizar un texto con transición **sobre** la imagen, con el `name` del meme como texto. Ver [texto con transición _fade in_](https://www.w3schools.com/howto/howto_css_image_overlay.asp) como ejemplo. 
+8. Agregar todos los estilos que consideren necesarios
