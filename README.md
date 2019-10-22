@@ -1,6 +1,6 @@
 # Project 3: Meme Of The Day
 
-Este es un proyecto para practicar e integrar lo visto sobre hacer _requests_ usando **[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)**, **[Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)**, manipulación del **DOM**, **modularización**, **refactoring** y **CSS**.
+Este es un proyecto para practicar e integrar lo visto sobre hacer _requests_ usando **[Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)**, **[Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)**, manipulación del **DOM**, **modularización**, **refactoring**, **Git** y **CSS**.
 
 **Nota:** trabajar en un branch `dev` y pushear a `master`(haciendo PR) cuando tengamos una feature completa, siguiendo el [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) como metodología.
 
