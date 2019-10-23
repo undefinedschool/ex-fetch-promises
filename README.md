@@ -96,3 +96,10 @@ Abajo se muestra cómo quedaría la estructura
 6. Agregar [efectos y transiciones](https://dev.to/webdeasy/top-20-css-buttons-animations-f41) al botón, al hacerle _hover_ y clickearlo.
 7. Al hacer _hover_ sobre la imagen del meme, se debe visualizar un texto con transición **sobre** la imagen, con el `name` del meme como texto. Ver [texto con transición _fade in_](https://www.w3schools.com/howto/howto_css_image_overlay.asp) como ejemplo. 
 8. Agregar todos los estilos que consideren necesarios
+
+## Parte 7: Hosting 🚀
+
+Investigar cómo y hostear el proyecto usando 
+  - [GitHub Pages](https://pages.github.com/)
+  - [Now](https://zeit.co/github)
+  - [Netlify](https://www.netlify.com/)
