@@ -97,7 +97,16 @@ Abajo se muestra cómo quedaría la estructura
 7. Al hacer _hover_ sobre la imagen del meme, se debe visualizar un texto con transición **sobre** la imagen, con el `name` del meme como texto. Ver [texto con transición _fade in_](https://www.w3schools.com/howto/howto_css_image_overlay.asp) como ejemplo. 
 8. Agregar todos los estilos que consideren necesarios
 
-## Parte 7: Hosting 🚀
+## Parte 7: README 📝
+
+Agregar un archivo [README](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project) al proyecto, que incluya (al menos):
+
+- descripción del proyecto
+- stack (tecnologías) utilizadas
+- pasos para correrlo localmente
+- cualquier otro detalle técnico que consideren relevante (decisiones que hayan tomado, etc)
+
+## Parte 8: Hosting 🚀
 
 Investigar cómo y hostear el proyecto usando 
   - [GitHub Pages](https://pages.github.com/)
