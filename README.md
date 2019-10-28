@@ -99,12 +99,14 @@ Abajo se muestra cómo quedaría la estructura
 
 ## Parte 7: README 📝
 
-Agregar un archivo [README](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project) al proyecto, que incluya (al menos):
+Agregar un archivo *README* al proyecto, que incluya (al menos):
 
 - descripción del proyecto
 - stack (tecnologías) utilizadas
 - pasos para correrlo localmente
 - cualquier otro detalle técnico que consideren relevante (decisiones que hayan tomado, etc)
+
+👉 Más información y recomendaciones sobre [cómo escribir un buen README](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 ## Parte 8: Hosting 🚀
 
