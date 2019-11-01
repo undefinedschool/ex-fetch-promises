@@ -95,7 +95,8 @@ Abajo se muestra cómo quedaría la estructura
 5. Aplicar márgenes entre los diferentes elementos del container.
 6. Agregar [efectos y transiciones](https://dev.to/webdeasy/top-20-css-buttons-animations-f41) al botón, al hacerle _hover_ y clickearlo.
 7. Al hacer _hover_ sobre la imagen del meme, se debe visualizar un texto con transición **sobre** la imagen, con el `name` del meme como texto. Ver [texto con transición _fade in_](https://www.w3schools.com/howto/howto_css_image_overlay.asp) como ejemplo. 
-8. Agregar todos los estilos que consideren necesarios
+8. Agregar una transición al cambiar de imagen, cada vez que obtenemos un nuevo meme random. En [este ejemplo](http://jsfiddle.net/mhRec/2/) la imagen se traslada hacia la derecha, en nuestro caso será hacia la izquierda.
+10. Agregar todos los estilos que consideren necesarios
 
 ## Parte 7: README 📝
 
@@ -108,7 +109,25 @@ Agregar un archivo *README* al proyecto, que incluya (al menos):
 
 👉 Más información y recomendaciones sobre [cómo escribir un buen README](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-## Parte 8: Hosting 🚀
+## Parte 8: `header`, `footer` y _HTML semántico_ 🖋️
+
+1. Agregar un `header` que tenga, a la derecha, un link al repositorio de GitHub con el código del proyecto. El link debe ser un ícono de GitHub, para lo que pueden usar [Font Awesome](https://fontawesome.com/). Ver ejemplo debajo
+
+![](https://i.imgur.com/WMthd4P.png)
+
+2. Agregar un `footer` que contenga info como el año, autor/a del proyecto y link al perfil de GitHub. Pueden agregar links adicionales si lo consideran, como LinkedIn, alguna red social, etc. Ver ejemplos debajo
+
+#### Ejemplo 1
+
+![](https://i.imgur.com/ysWEGS5.png)
+
+#### Ejemplo 2
+
+![](https://i.imgur.com/bfAwRND.png)
+
+3. Agregar los tags _semánticos_ de HTML5 necesarios. Recuerden que siempre tiene que haber un `main`, puede o no haber `section`, etc
+
+## Parte 9: Hosting 🚀
 
 Investigar cómo y hostear el proyecto usando 
   - [GitHub Pages](https://pages.github.com/)
