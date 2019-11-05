@@ -98,7 +98,7 @@ Abajo se muestra cómo quedaría la estructura
 8. Agregar una transición al cambiar de imagen, cada vez que obtenemos un nuevo meme random. En [este ejemplo](http://jsfiddle.net/mhRec/2/) la imagen se traslada hacia la derecha, en nuestro caso será hacia la izquierda.
 10. Agregar todos los estilos que consideren necesarios
 
-## Parte 6 BIS: Viento de cola 🌬
+## [BONUS] Parte 6 BIS: Viento de cola 🌬
 
 Implementar los estilos del proyecto utilizando [Tailwind CSS](https://github.com/undefinedschool/notes-tailwind-css/)
 
