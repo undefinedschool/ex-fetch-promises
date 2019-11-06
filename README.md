@@ -137,3 +137,12 @@ Investigar cómo y hostear el proyecto usando
   - [GitHub Pages](https://pages.github.com/)
   - [Now](https://zeit.co/github)
   - [Netlify](https://www.netlify.com/)
+
+## Parte 10: Tests de accesibilidad y performance 😄
+
+Uno de los mayores beneficios de escribir _HTML semántico_ es la mejora en la [accesibilidad](https://www.youtube.com/watch?v=gQIKQO41pME) de un sitio. Por esta razón es importante que tratemos siempre de utilizar las etiquetas correctas, con los atributos necesarios. También es importante testear nuestra aplicación simulando conexiones más lentas (la pestaña _Networking_ permite hacer esto, se llama [_throttling_](https://en.wikipedia.org/wiki/Bandwidth_throttling)), asegurarnos de que el contraste generado por los colores de texto y background son suficientes, etc.
+
+Para esto vamos a utilizar algunas herramientas que van a ayudarnos a analizar estos detalles y obtener sugerencias.
+
+1. Instalar la extensión axe ([Chrome](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/)), usarla para analizar la accesibilidad del sitio y aplicar en lo posible las sugerencias
+2. Después de _hostear_ tu sitio en algunas de las opciones que vimos, poner la url en [web.dev](https://web.dev/measure/) y correr el test. Observar el reporte con los resultados obtenidos y analizar qué cambios se pueden aplicar
