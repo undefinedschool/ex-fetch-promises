@@ -149,6 +149,8 @@ Para esto vamos a utilizar algunas herramientas que van a ayudarnos a analizar e
 
 ## Parte 11: Hosting 🚀
 
+- Ver notas de [deployment](https://github.com/undefinedschool/notes-deployment/)
+
 Investigar cómo y hostear el proyecto usando 
   - [GitHub Pages](https://pages.github.com/)
   - [Now](https://zeit.co/github)
