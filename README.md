@@ -142,7 +142,7 @@ Para esto vamos a utilizar algunas herramientas que van a ayudarnos a analizar e
 
 ## Parte 10: async & defer
 
-Usar los atributos [`async` y `defer`](https://flaviocopes.com/javascript-async-defer/) para que el script que linkeamos en el HTML cargue de forma asincrónica:
+Mover el `<script>` con el `index.js` del HTML al final del tag `head` y usar los atributos [`async` y `defer`](https://flaviocopes.com/javascript-async-defer/) para que el script que linkeamos en el HTML cargue de forma asincrónica:
 
 `<script async defer src="index.js" type="module"></script>`
 
