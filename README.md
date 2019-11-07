@@ -142,7 +142,8 @@ Para esto vamos a utilizar algunas herramientas que van a ayudarnos a analizar e
 
 ## Parte 10: async & defer
 
-Mover el `<script>` con el `index.js` del HTML al final del tag `head` y usar el atributo [`defer`](https://flaviocopes.com/javascript-async-defer/) para que el script que linkeamos en el HTML cargue de forma asincrónica:
+1. Usar [font-display](https://scotch.io/bar-talk/google-fonts-now-supports-font-display) para cargar las Google Fonts, agregando `&display=fallback` a las urls
+2. Mover el `<script>` con el `index.js` del HTML al final del tag `head` y usar el atributo [`defer`](https://flaviocopes.com/javascript-async-defer/) para que el script que linkeamos en el HTML cargue de forma asincrónica:
 
 `<script defer src="index.js" type="module"></script>`
 
